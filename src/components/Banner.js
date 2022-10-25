@@ -54,7 +54,7 @@ const Banner = () => {
                         <TrackVisibility>
                             {({ isVisible }) =>
                                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                                    <span className="tagline">Welcome to my Portfolio</span>
+                                    <span className="tagline">Welcome to my Projects</span>
                                 </div>}
                         </TrackVisibility>
                     </Col>
