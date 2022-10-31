@@ -2,13 +2,14 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.png';
 import Banner from "./Banner";
+//import NextJS from "./NextJS";
 import Project from "./Project";
 import ReactJS from "./ReactJS";
 import ReactNative from "./ReactNative";
 
 const NavBar = () => {
 
-    const [activeLink, setActiveLink] = useState('Home');
+    const [activeLink, setActiveLink] = useState('Project');
     const [scrolled, setScrolled] = useState(false);
 
     useEffect(() => {
@@ -45,6 +46,7 @@ const NavBar = () => {
                             <Nav.Link href="#Project" className={activeLink === 'Project' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('Project')}>All Project</Nav.Link>
                             <Nav.Link href="#React JS" className={activeLink === 'React JS' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('React JS')}>React JS</Nav.Link>
                             <Nav.Link href="#React Native" className={activeLink === 'React Native' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('React Native')}>React Native</Nav.Link>
+                            {/* <Nav.Link href="#Next JS" className={activeLink === 'Next JS' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('React Native')}>Next JS</Nav.Link> */}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
@@ -53,6 +55,7 @@ const NavBar = () => {
             <Project />
             <ReactJS />
             <ReactNative />
+            {/* <NextJS /> */}
         </>
     )
 }
