@@ -338,6 +338,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+@media only screen and (min-width: 420px) {
+  .project .carousel-item {
+    margin-left: 10%;
+  }
+}
+
 .project .nav.nav-pills {
   width: 50%;
   margin: 0 auto;
