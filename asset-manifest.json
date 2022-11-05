@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Profile-Projects/static/css/main.07551d05.css",
-    "main.js": "/Profile-Projects/static/js/main.86b0f2bd.js",
+    "main.js": "/Profile-Projects/static/js/main.a362a96f.js",
     "static/js/787.ec704a7a.chunk.js": "/Profile-Projects/static/js/787.ec704a7a.chunk.js",
     "static/media/color-sharp2.png": "/Profile-Projects/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/banner-bg.png": "/Profile-Projects/static/media/banner-bg.cc1273af450504afe755.png",
@@ -16,6 +16,7 @@
     "static/media/signal.png": "/Profile-Projects/static/media/signal.bf5db4bd0ef04cb4ef14.png",
     "static/media/Insta-clone.png": "/Profile-Projects/static/media/Insta-clone.c28a360d20df432e1f58.png",
     "static/media/e-commerce.png": "/Profile-Projects/static/media/e-commerce.53a3d336be7a8f7dd3bc.png",
+    "static/media/movie.png": "/Profile-Projects/static/media/movie.c054714c1052072caa80.png",
     "static/media/deliveroo.png": "/Profile-Projects/static/media/deliveroo.08ed5dd7f35c00a2c35f.png",
     "static/media/portfolio.png": "/Profile-Projects/static/media/portfolio.da0570de8d50e58e6248.png",
     "static/media/spotify.png": "/Profile-Projects/static/media/spotify.e5c441acdc2efe85ca93.png",
@@ -28,11 +29,11 @@
     "static/media/revicons.woff": "/Profile-Projects/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/Profile-Projects/index.html",
     "main.07551d05.css.map": "/Profile-Projects/static/css/main.07551d05.css.map",
-    "main.86b0f2bd.js.map": "/Profile-Projects/static/js/main.86b0f2bd.js.map",
+    "main.a362a96f.js.map": "/Profile-Projects/static/js/main.a362a96f.js.map",
     "787.ec704a7a.chunk.js.map": "/Profile-Projects/static/js/787.ec704a7a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07551d05.css",
-    "static/js/main.86b0f2bd.js"
+    "static/js/main.a362a96f.js"
   ]
 }
