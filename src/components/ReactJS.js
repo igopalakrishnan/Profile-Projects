@@ -10,6 +10,7 @@ import Ecommerce from "../assets/img/e-commerce.png";
 import Instagram from "../assets/img/Instagram.png";
 import Portfolio from "../assets/img/portfolio.png";
 import Spotify from "../assets/img/spotify.png";
+import Movie from "../assets/img/movie.png";
 
 const Projects = () => {
     const reactjs = [
@@ -68,7 +69,14 @@ const Projects = () => {
             shortDesc: "Play Your Favourite Songs.",
             category: "Discography"
         },
-        
+        {
+            title: "Disney Clone",
+            imgUrl: Movie,
+            linkName: "Disney Clone",
+            link:"https://disney-clone-8ad44.web.app/",
+            shortDesc: "Watch Your Favourite Movies.",
+            category: "Filmography"
+        },
     ];
 
 

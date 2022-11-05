@@ -13,6 +13,8 @@ import Instagram from "../assets/img/Instagram.png";
 import News from "../assets/img/news.png";
 import Portfolio from "../assets/img/portfolio.png";
 import Signal from "../assets/img/signal.png";
+import Spotify from "../assets/img/spotify.png";
+import Movie from "../assets/img/movie.png";
 
 const Skills = () => {
 
@@ -102,6 +104,22 @@ const Skills = () => {
             link: "https://igopalakrishnan.github.io/pages/signal-clone.html",
             shortDesc: "Chat with your friends.",
             category: "Messaging"
+        },
+        {
+            title: "Spotify 2.0",
+            imgUrl: Spotify,
+            linkName: "Spotify 2.0",
+            link:"https://spotifyy-2.netlify.app/",
+            shortDesc: "Play Your Favourite Songs.",
+            category: "Discography"
+        },
+        {
+            title: "Disney Clone",
+            imgUrl: Movie,
+            linkName: "Disney Clone",
+            link:"https://disney-clone-8ad44.web.app/",
+            shortDesc: "Watch Your Favourite Movies.",
+            category: "Filmography"
         },
     ];
 
